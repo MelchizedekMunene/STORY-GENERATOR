@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
     <title>Silly Story Generator</title>
 </head>
+
 <body>
-    
+    <div>
+        <label for="customname">Enter a custom name: </label>
+        <input id="customname" type="text" placeholder="Type random name" />
+    </div>
+    <div>
+        <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked />
+        <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+        <button class="randomize">Generate random Story</button>
+    </div>
+    <div>
+        <p class="story"></p>
+        <script src="main.js"></script>
+    </div>  
 </body>
 </html>
