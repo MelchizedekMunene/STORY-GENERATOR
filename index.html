@@ -6,22 +6,23 @@
     <link rel="stylesheet" href="styling.css">
     <title>Silly Story Generator</title>
 </head>
-
 <body>
     <div>
-        <label for="customname">Enter a custom name: </label>
-        <input id="customname" type="text" placeholder="Type random name" />
+        <label for="customname">Enter a Custom Name: 
+            <input type="text" id="customname" placeholder="Type a random name" />
+        </label>
     </div>
     <div>
-        <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked />
-        <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk" />
+        <label for="us">US</label>
+        <input type="radio" name="ukus" id="us" value="us" checked />
+        <label for="uk">UK</label>
+        <input type="radio" name="ukus" id="uk" value="uk" />
     </div>
     <div>
-        <button class="randomize">Generate random Story</button>
+        <button class="randomise">Generate Random Story</button>
     </div>
     <div>
         <p class="story"></p>
-        <script src="main.js"></script>
-    </div>  
+    </div>
 </body>
 </html>
