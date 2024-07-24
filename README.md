@@ -11,9 +11,9 @@
   <li>AFter unzipping the folder you should ensure the files are correctly linked</li>
   <li>Open the index.html file with the browser of your choice</li>
   <li>you should see the image below</li>
-  <img>![story-generator edited](https://github.com/user-attachments/assets/ee33da90-412f-422e-88d1-1a875fb8472e)
-
 </ol>
+
+<img>![story-generator edited](https://github.com/user-attachments/assets/ee33da90-412f-422e-88d1-1a875fb8472e)
 
 The webpage has an input field which allows user input
 
